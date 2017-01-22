@@ -16,7 +16,9 @@ My findings suggest a decreasing interest in topics at a cellular and molecular 
 I downloaded the abstracts of articles in the journals mentioned above directly from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) by setting the "Publication dates" filter for a custom range from 1/1/1997 to 12/31/2016 and downloading a .txt file . These text files with the article title, authors, and abstract are provided as part of the repository for convienience. 
 
 ## Keyword extraction and analysis
+The title, year, and abstract for each entry for every journal was extracted using 'TextExtractor.py'[
 
-### Most frequently used keywords (1/1/1997 - 12/31/2001) 
+### Most frequently used keywords
+![alt text](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/brainCloud_combo_half.png "Quarterly Returns")
 
 #### This project is still unfinished. 
