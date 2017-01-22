@@ -20,6 +20,6 @@ abbreviated journal title + .txt extension, e.g. "Annu Rev Neurosci.txt".
 The title, year, and abstract for each entry for every journal was extracted using 'TextExtractor.py'[
 
 ### Most frequently used keywords
-![alt text](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/brainCloud_combo_half.png "Quarterly Returns")
+![alt text](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/brainCloud_combo_half.png "Keyword Clouds")
 
 #### This project is still unfinished. 
