@@ -10,10 +10,11 @@ How has neuroscience and the concepts that drive it changed over the last 20 yea
 * [Progress in Neurobiology](https://www.journals.elsevier.com/progress-in-neurobiology/)
 * [Trends in Neurosciences](http://www.cell.com/trends/neurosciences/home)
 
-My findings suggest a decreasing interest in topics at a cellular and molecular level and an increasing interest in circuit level, clinically relevant concepts -- with marked interest in Alzeihmer's disease, neurodegeneration, and inflammation. In the following sections, I cover exactly how I arrived at these conclusions by reviewing the data, the code, and useful visual aids. 
+My findings suggest a decreasing interest in topics at a cellular and molecular level and an increasing interest in circuit level, clinically relevant concepts -- with marked interest in Alzeihmer's disease, neurodegeneration, and inflammation. In the following sections, I cover exactly how I arrived at these conclusions by reviewing the data, the code, and useful visual aids. For a detailed discussion of specific sections of the code, please refer to the wiki. 
 
 ## The raw data
-I downloaded the abstracts of articles in the journals mentioned above directly from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) by setting the "Publication dates" filter for a custom range from 1/1/1997 to 12/31/2016 and downloading a .txt file . These text files with the article title, authors, and abstract are provided as part of the repository for convienience. 
+I downloaded the abstracts of articles in the journals mentioned above directly from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) by setting the "Publication dates" filter for a custom range from 1/1/1997 to 12/31/2016 and downloading a .txt file . These text files with the article title, authors, and abstract are provided as part of the repository for convienience with the following naming format:
+abbreviated journal title + .txt extension, e.g. "Annu Rev Neurosci.txt".
 
 ## Keyword extraction and analysis
 The title, year, and abstract for each entry for every journal was extracted using 'TextExtractor.py'[
