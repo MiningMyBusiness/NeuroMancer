@@ -31,12 +31,17 @@ To systematically determine which keywords have reduced in frequency over time, 
 
 This plots demonstrates how the frequency of use of specific keywords has changed in the abstracts of neuroscience review articles of the last 20 years. For instance, the word 'cell' was used in about 8% of the abstracts in 1997 but now is only used in less than 4% of them. While a 4% change in the number of abstracts overall may not seem like a huge change, it suggests that the word 'cell' is encountered as a keyword about half as often as it used to be. While the word 'treatment' is encountered as a keyword more than twice as often as it used to. However, the percent of abstracts in which the keyword 'cell' appears today is still slightly higher than the percent in which the word 'treatment' appears. 
 
-The following list shows all the changing words. They've been color coded and ordered according to their trend - with yellow and green shades representing increasing trends and blue shades representing decreasing trends.
+The following plot shows all the changing words. The slope and y-intercept of the linear fits determined the position of the words - with words in yellow and green shades representing increasing trends and words in blue shades representing decreasing trends.
 
 ### Trend list
-<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords.png" width="300">
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D.png" width="300">
 
 (click on the image to enlarge it in another window)
+The portion within the black square was expanded to create the following plot.
+
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D_zoom.png" width="300">
+
+
 
 
 
