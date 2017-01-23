@@ -33,12 +33,12 @@ This plots demonstrates how the frequency of use of specific keywords has change
 
 The following plot shows all the changing words. The slope and y-intercept of the linear fits determined the position of the words - with words in yellow and green shades representing increasing trends and words in blue shades representing decreasing trends.
 
-### Trend list
+### Word trend visualization
 <img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D.png" width="700">
 
 (click on the image to enlarge it in another window)
 
-The portion within the black square was expanded to create the following plot.
+The y-intercept of the linear model (y-axis) of each word is essentially the percent of abstracts from 1997 in which it appeared. The slope, on the other hand, captures the average rate at which word has changed in usage. The words near the corners of this plot are those that were very popular and have also changed dramatically in popularity. The portion within the black square was expanded to create the following plot.
 
 <img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D_zoom.png" width="700">
 
@@ -46,6 +46,9 @@ The portion within the black square was expanded to create the following plot.
 
 A complete list of the words can also be found [here](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords.png)
 
+Upon a close viewing of the words with increasing and decreasing trends, one can notice that they cover different levels inquiry in neuroscience. The words with decreasing trends tend to cover topics at a cellular level (e.g. cell, receptor, protein, channel, membrane, axon, nucleus, molecule, etc). On the other hand, the words with increasing trends tend to cover topics at a higher organizational level (e.g. brain, circuit, network, cognitive, connectivity, decision, attention etc.) or clinical level (disorder, disease, treatment, patient, therapeutic, dysfunction etc). 
+
+However, outside of qualitative judegment, this analysis doesn't clearly show that the groups of keywords with increasing and decreasing trends are truly different from one another and demonstrate broadly changing interests in the organizational levels in neurscience. This question can be addressed with a network analysis of keywords where each keyword is a vertex and connections between words are determined by how many times they appear together in one abstract. If words with decreasing trends are more strongly connected to other words with decreasing trends than they are to words with increasing trends, then that would suggest the two are groups are indeed different from one another.  
 
 
 
