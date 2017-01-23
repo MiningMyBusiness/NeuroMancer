@@ -42,7 +42,10 @@ The portion within the black square was expanded to create the following plot.
 
 <img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D_zoom.png" width="700">
 
+(click to enlarge)
+
 A complete list of the words can also be found [here](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords.png)
+
 
 
 
