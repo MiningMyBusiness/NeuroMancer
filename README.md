@@ -10,7 +10,7 @@ How has neuroscience and the concepts that drive it changed over the last 20 yea
 * [Progress in Neurobiology](https://www.journals.elsevier.com/progress-in-neurobiology/)
 * [Trends in Neurosciences](http://www.cell.com/trends/neurosciences/home)
 
-My findings suggest certain keywords pertaining to topics at a cellular and molecular level have had a decreasing trend while keywords pertaining to topics at a cognitive and clinical level have had an increasing trend. In the following sections, I aim to quantify these changes and cover exactly how I arrived at these conclusions by reviewing the data, the code, and useful visual aids. For a detailed discussion of specific sections of the code and output files, please refer to the wiki. 
+My findings suggest certain keywords pertaining to topics at a cellular and molecular level have had a decreasing trend while keywords pertaining to topics at a cognitive and clinical level have had an increasing trend. In the following sections, I aim to quantify these changes and cover exactly how I arrived at these conclusions by reviewing the data, the code, and useful visual aids.
 
 ## The raw data
 I downloaded the abstracts of articles in the journals mentioned above directly from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) by setting the "Publication dates" filter for a custom range from 1/1/1997 to 12/31/2016 and downloading a .txt file . These text files with the article title, authors, and abstract are provided as part of the repository for convienience. The files have the following naming format:
