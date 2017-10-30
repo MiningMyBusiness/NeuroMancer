@@ -17,7 +17,7 @@ I downloaded the abstracts of articles in the journals mentioned above directly 
 abbreviated journal title + .txt extension, e.g. "Annu Rev Neurosci.txt".
 
 ## The process
-The title, year, and abstract for each entry for every journal was extracted from the .txt files using [TextExtractor.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/TextExtractor.py). Then an unsupervised extractive summarization method called [TextRank](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) was used to find keywords within each abstract using [AbstractSummarizer.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AbstractSummarizer.py). These were grouped according to the year of publication and [keywordCloud.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/keywordCloud.py) was used to make the following wordclouds out of the frequency of extracted keywords.
+The title, year, and abstract for each entry for every journal was extracted from the .txt files using [TextExtractor.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Code/TextExtractor.py). Then an unsupervised extractive summarization method called [TextRank](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) was used to find keywords within each abstract using [AbstractSummarizer.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Code/AbstractSummarizer.py). All extracted keywords from every article were then analyzed with [KeywordAnalyzer_FINAL.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Code/KeywordAnalyzer_FINAL.py). These were grouped according to the year of publication and [keywordCloud.py](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/keywordCloud.py) was used to make the following wordclouds out of the frequency of extracted keywords.
 
 ### Most frequently used keywords
 ![alt text](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/brainCloud_combo_half.png "Keyword Clouds")
@@ -34,13 +34,13 @@ This plots demonstrates how the frequency of use of specific keywords has change
 The following plot shows all the changing words. The slope and y-intercept of the linear fits determined the position of the words - with words in yellow and green shades representing increasing trends and words in blue shades representing decreasing trends.
 
 ### Word trend visualization
-<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D.png" width="700">
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Results/AllChangingWords_2D.png" width="700">
 
 (click on the image to enlarge it in another window)
 
 The y-intercept of the linear model (y-axis) of each word is essentially the percent of abstracts from 1997 in which it appeared. The slope, on the other hand, captures the average rate at which word has changed in usage. The words near the corners of this plot are those that were very popular and have also changed dramatically in popularity. The portion within the black square was expanded to create the following plot.
 
-<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords_2D_zoom.png" width="700">
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Results/AllChangingWords_2D_zoom.png" width="700">
 
 (click to enlarge)
 
@@ -55,11 +55,11 @@ This concern can be addressed with a network analysis of keywords where each key
 
 The two plots below demonstrate that this is exactly the case. 
 
-<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/DecreaseConnectedness.png" width="450">
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Results/DecreaseConnectedness.png" width="450">
 
 Both word types - words with increasing trends and words with decreasing trends - were given a score based on the number of different abstracts in which they appeard with other decreasing words for this plot. This number was divided by the number of different abstracts in which they appeared with any of the 643 unique keywords. Therefore, a word score of 1 in this plot means that a word appeared only with decreasing words and word score of 0 means that a word never appeared with a decreasing word in any abstract. A rank-sum test to compare these distribution produces p-value far less than 0.001 suggesting that keywords with decreasing trends are more connected to each other than to keywords with increasing trends. 
 
-<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/IncreaseConnectedness.png" width="450">
+<img src="https://github.com/MiningMyBusiness/NeuroMancer/raw/master/Results/IncreaseConnectedness.png" width="450">
 
 The same was done to create this plot which demonstrates that keywords with increasing trends are more connected to each other than to keywords with decreasing trends. 
 
