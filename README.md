@@ -44,7 +44,7 @@ The y-intercept of the linear model (y-axis) of each word is essentially the per
 
 (click to enlarge)
 
-A complete list of the words color-coded and ordered by increasing-to-decreasing trend can also be found [here](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords.png)
+A complete list of the words color-coded and ordered by increasing-to-decreasing trend can also be found [here.](https://github.com/MiningMyBusiness/NeuroMancer/raw/master/AllChangingWords.png)
 
 Upon a close viewing of the words with increasing and decreasing trends, one can notice that they cover different levels of inquiry in neuroscience. The words with decreasing trends tend to cover topics at a cellular level (e.g. cell, receptor, protein, channel, membrane, axon, nucleus, molecule, etc). On the other hand, the words with increasing trends tend to cover topics at a higher organizational level (e.g. brain, circuit, network, cognitive, connectivity, decision, attention etc.) or clinical level (disorder, disease, treatment, patient, therapeutic, dysfunction etc). 
 
