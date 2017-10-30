@@ -1,0 +1,1 @@
+This folder has the raw data files from which text and keywords will be extracted. These files were directly downloaded from the PubMed page. The way to do this is described in the main README file in the master directory. 
